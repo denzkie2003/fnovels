@@ -1,0 +1,38 @@
+/*FNovels Css Frameworks*/
+@import url('http://fonts.cdnfonts.com/css/poppins?styles=20394');
+:root{
+    --message-bg: rgba(255, 212, 48, 0.32);
+}
+*{
+  padding:0;margin:0;/*default*/
+  font-family: "Poppins",sans-serif!important;
+}
+/*Element Selector*/
+a{text-decoration: none;color:#ff4f4f}
+a:hover, a:active{color:#46ff67}
+p,h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins",sans-serif!important;
+}
+/*Mobile View*/
+body{max-width:100%;background-color: #bcbcbc}
+.pageCover{
+  width:100%;
+  height:auto;
+  position: relative;
+  display: block;
+}
+#pageCover{
+  width: inherit;
+  height: 120px;
+}
+.postpage{
+  margin:5px 5px;
+}
+/*Navigation*/
+.navigation ul li a{color:inherit}
+.title{font-weight: 800}
+.title a{color:inherit}
+/*Post Display*/
+.shareContainer{width:100%;height:auto;margin-bottom:20px}
+#shareUl li{width:30%;border:1px solid grey;border-radius:5px;padding:5px}
+#shareUl li a:hover, #shareUl li a:active{cursor: none}
