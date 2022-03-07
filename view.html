@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="DenZ"/>
+  <meta name="description" content="Download your favorate Light Novels for free"/>
+  <meta property="og:site_name" content="Fnovels - Free Light Novels"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="logo.png" />
+  <meta property="facebook:image" content="logo.png"/>
+  <title>FNovels - Free Light Novels</title>
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="stylesheet" href="w3.css" title="Css Frameworkd" type="text/css" />
+  <link rel="stylesheet" href="fnovels.css" type="text/css" media="all" />
+<style>
+  /*Post Display*/
+  .post{max-width:100%;height:auto}
+  .postImage{width:100%;height:auto;display:flex;justify-content:center;align-items:center}
+  #postimage{width:200px;overflow:hidden}
+  .post article{display:inline}
+  #postDescription{width:100%;max-height:180px;overflow:hidden;white-space:pre-line;text-overflow: ellipsis;margin-bottom:7px}
+  #ellipsis{opacity:0.5}
+  .postForm{display: flex}
+  #datePost{color:#000000;opacity: 0.5;font-size:15px;width:60%;margin-right:7px;padding-top:8px}
+  .postBtn{color:#ff6363;font-weight:800}
+</style>
+</head>
+<body>
+<div class="main_container">
+	  
+	  <!-- Page Cover Display -->
+	  <div class="pageCover">
+	    <img id="pageCover" src="backgroundcover.jpg" alt="Page Cover" />
+	  </div>
+	  <!-- Navigation -->
+	  <div class="navigation w3-bar w3-black">
+	    <ul class="w3-ul">
+	      <li class="w3-bar-item"><a href="#">Home</a></li>
+	      <li class="w3-bar-item"><a href="about-us.html">About Us</a></li>
+	      <li class="w3-bar-item"><a href="novel-list.html">LN List</a></li>
+	    </ul>
+	  </div>
+	  <!-- Search Display -->
+	  <div style="margin:7px 5px;" class="search-container w3-container w3-white w3-round">
+	    <form method="get" class="w3-form w3-padding-small formSearch">
+	      <input type="search" class="w3-input w3-border w3-round" name="search" id="search" placeholder="Search Light Novel" />
+	    </form>
+	  </div>
+	  <!-- Postpage -->
+	  <div class="w3-container postpage w3-white w3-round" w3-include-html="postSource.html"></div>
+	  <footer class="w3-footer w3-center">
+	    ©FNovels Project 2022
+	  </footer>
+</div>
+<script src="jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="w3.js" type="text/javascript" charset="utf-8"></script>
+<script src="index.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  w3.includeHTML();
+</script>
+</body>
+</html>

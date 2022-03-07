@@ -1,7 +1,7 @@
 {
   "run": {
     "type": "file",
-    "file": "index.html",
+    "file": "view.html",
     "ignoreCurrent": true
   }
 }
