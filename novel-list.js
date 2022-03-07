@@ -24,4 +24,10 @@ $(document).ready(function(){
         li.append(a);
         ul.append(li);
     }
+    
+    $(".list li").sort(sortList).appendTo(".list");
+    
+    function sortList(a,b){
+        return ($(b).text()) < ($(a).text()) ? 1:-1;
+    }
 });

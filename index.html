@@ -48,7 +48,7 @@
 	    <form method="get" class="w3-form w3-padding-small formSearch">
 	      <input type="search" class="w3-input w3-border w3-round" name="search" id="search" placeholder="Search Light Novel" />
 	    </form>
-	    <ul class="w3-ul sResult" id="novelList"></ul>
+	    <ul class="w3-ul sResult list" id="novelList"></ul>
 	  </div>
 	  <!-- Postpage -->
 	  <div class="w3-container postpage w3-white w3-round" w3-include-html="postSource.html"></div>
@@ -64,8 +64,16 @@
   w3.includeHTML();
   $(document).ready(function(){
       $("#search").keyup(function(){
-          $("#novelList").css("display","block")
-      })
+          let txt = $(this).val().toLowerCase();
+          $("#novelList li a").filter(function(){
+              $(this).toggle($(this).text().toLowerCase().indexOf(txt) > -1);
+          });
+          if(txt !== ""){
+              $("#novelList").css("display","block");
+          }else{
+              $("#novelList").css("display","none");
+          }
+      });
       $("form").submit(function(e){
           e.preventDefault();
       })
