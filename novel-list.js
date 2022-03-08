@@ -9,7 +9,7 @@ $(document).ready(function(){
            title:"For Some Reason, The School Goddess Likes to Hang Out at My House",link:"For-Some-Reason-The-School-Goddess-Likes to-Hang-Out-at-My-House.html"
         },{
             title:"I Know That After School, The Saint is More Than Just Noble Light Novel Light Novel",link:"I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.html"
-        }
+        },{title:"Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",link:"Villainess-Reloaded-Blowing-Away-Bad-Ends-with-Modern-Weapons.html"}
     ]
     
     let ul = document.getElementById("novelList");
