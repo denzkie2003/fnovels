@@ -7,6 +7,8 @@ $(document).ready(function(){
           title:"Dreaming Boy Turned Realist",link:"Yumemiru-Danshi-wa-Genjitsushugisha-Light-Novel.html"
         },{
            title:"For Some Reason, The School Goddess Likes to Hang Out at My House",link:"For-Some-Reason-The-School-Goddess-Likes to-Hang-Out-at-My-House.html"
+        },{
+            title:"I Know That After School, The Saint is More Than Just Noble Light Novel Light Novel",link:"I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.html"
         }
     ]
     
