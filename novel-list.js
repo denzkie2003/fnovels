@@ -12,8 +12,10 @@ $(document).ready(function(){
         },{title:"Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",link:"Villainess-Reloaded-Blowing-Away-Bad-Ends-with-Modern-Weapons.html"},
         {
             title:"In The Land Of Leadale",link:"in-the-land-of-leadale.html"
-        },{
+        }/*,{
             title:"The World Of Otome Games Is Tough For Mobs",link:"in-the-land-of-leadale.html"
+        }*/,{
+            title:"Fake Marriage With My Ex-Girlfriend",link:"fake-marriage-with-my-ex-girlfriend.html"
         }
     ]
     
