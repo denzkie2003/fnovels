@@ -8,14 +8,17 @@ $(document).ready(function(){
         },{
            title:"For Some Reason, The School Goddess Likes to Hang Out at My House",link:"For-Some-Reason-The-School-Goddess-Likes to-Hang-Out-at-My-House.html"
         },{
-            title:"I Know That After School, The Saint is More Than Just Noble Light Novel Light Novel",link:"I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.html"
+            title:"I Know That After School, The Saint is More Than Just Noble Light Novel",link:"I-Know-That-After-School-The-Saint-is-More-Than-Just-Noble.html"
         },{title:"Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",link:"Villainess-Reloaded-Blowing-Away-Bad-Ends-with-Modern-Weapons.html"},
         {
             title:"In The Land Of Leadale",link:"in-the-land-of-leadale.html"
         }/*,{
             title:"The World Of Otome Games Is Tough For Mobs",link:"in-the-land-of-leadale.html"
-        }*/,{
+        },{
             title:"Fake Marriage With My Ex-Girlfriend",link:"fake-marriage-with-my-ex-girlfriend.html"
+        }*/
+        ,{
+            title:"Majo No Tabitabi",link:"majo-no-tabitabi.html"
         }
     ]
     
