@@ -1,5 +1,6 @@
 /*FNovels Css Frameworks*/
 @import url('http://fonts.cdnfonts.com/css/poppins?styles=20394');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
     --message-bg: rgba(255, 212, 48, 0.32);
 }
@@ -29,6 +30,7 @@ body{max-width:100%;background-color: #bcbcbc}
   margin:5px 5px;
 }
 /*Navigation*/
+.navigation{position: sticky;top:0}
 .navigation ul li a{color:inherit}
 .title{font-weight: 800}
 .title a{color:inherit}
