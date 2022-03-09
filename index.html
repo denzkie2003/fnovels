@@ -25,7 +25,7 @@
   #datePost{color:#000000;opacity: 0.5;font-size:15px;width:60%;margin-right:7px;padding-top:8px}
   .postBtn{color:#ff6363;font-weight:800}
   .search-container{position: relative}
-  .sResult{width:91%;height:250px;background-color:white;box-shadow:2px 3px 10px 2px black;position:absolute;border-radius:5px;overflow-y:scroll;display:none}
+  .sResult{width:91%;height:250px;background-color:white;box-shadow:2px 3px 10px 2px black;position:absolute;border-radius:5px;overflow-y:scroll;display:none;list-style-type:none}
   .sResult li{border:none}
 </style>
 </head>
@@ -47,7 +47,7 @@
 	  <!-- Search Display -->
 	  <div style="margin:7px 5px;" class="search-container w3-container w3-white w3-round">
 	    <form method="get" class="w3-form w3-padding-small formSearch">
-	      <input type="search" class="w3-input w3-border w3-round" name="search" id="search" placeholder="Search Light Novel" />
+	      <input type="search" class="w3-input w3-border w3-round" name="search" id="search" placeholder="Search Light Novel" onkeyup="searchFunction()" />
 	    </form>
 	    <ul class="w3-ul sResult list" id="novelList"></ul>
 	  </div>
@@ -63,22 +63,26 @@
 <script src="novel-list.js"></script>
 <script>
   w3.includeHTML();
-  $(document).ready(function(){
-      $("#search").keyup(function(){
-          let txt = $(this).val().toLowerCase();
-          $("#novelList li a").filter(function(){
-              $(this).toggle($(this).text().toLowerCase().indexOf(txt) > -1);
-          });
-          if(txt !== ""){
-              $("#novelList").css("display","block");
-          }else{
-              $("#novelList").css("display","none");
-          }
-      });
-      $("form").submit(function(e){
-          e.preventDefault();
-      })
-  })
+
+  function searchFunction(){
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('search');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("novelList");
+  li = ul.getElementsByTagName('li');
+  ul.style.display="block";
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
 </script>
 </body>
 </html>
