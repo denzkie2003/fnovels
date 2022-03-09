@@ -21,6 +21,8 @@ $(document).ready(function(){
             title:"Majo No Tabitabi",link:"majo-no-tabitabi.html"
         },{
             title:"My and Her Game War",link:"my-and-her-game-war.html"
+        },{
+            title:"For Some Reason, a Gal in My Class Became Friends With My Step-sister",link:"For-Some-Reason-a-Gal-in-My-Class-Became-Friends-With-My-Step-sister.html"
         }
     ]
     
