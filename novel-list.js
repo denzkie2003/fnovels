@@ -23,7 +23,7 @@ $(document).ready(function(){
             title:"My and Her Game War",link:"my-and-her-game-war.html"
         },{
             title:"For Some Reason, a Gal in My Class Became Friends With My Step-sister",link:"For-Some-Reason-a-Gal-in-My-Class-Became-Friends-With-My-Step-sister.html"
-        }
+        },{title:"Spy Classroom",link:"spy-classroom-light-novel.html"}
     ]
     
     let ul = document.getElementById("novelList");
