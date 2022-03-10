@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="DenZ"/>
+  <meta name="description" content="Download your favorate Light Novels for free"/>
+  <meta property="og:site_name" content="Fnovels - Free Light Novels"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="logo.png" />
+  <meta property="facebook:image" content="logo.png"/>
+  <title>FNovels - Free Light Novels</title>
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="stylesheet" href="w3.css" title="Css Frameworkd" type="text/css" />
+  <link rel="stylesheet" href="fnovels.css" type="text/css" media="all" />
+  
+<style>
+  /*Page Display*/
+  .page{max-width:100%;height:auto}
+  .topPage{display:flex}
+  #back_arrow{font-size:30px;text-align:left}
+  .support{
+      height:95vh;
+      max-width: 100%;
+      display: flex; flex-direction: column;
+      justify-content:center;
+      align-items:center;
+  }
+  .support img{width:110px;height:110px}
+  @keyframes animateText{
+      0%{color:black}
+      20%{color:#FF6666}
+      40%{color:#FFF766}
+      60%{color:#3CFF5D}
+      80%{color:#FF339F}
+      100%{color:#FFC545}
+  }
+  #animateText{
+      font-weight: 700;
+      font-family: "Poppins",sans-serif;
+      color:black;
+      animation-name: animateText;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left:20px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="page w3-container w3-white main_container w3-round">
+      <div class="w3-container topPage" style="margin:5px 0;">
+         <span id="back_arrow"><a href="index.html">&#8592;</a></span>
+      </div>
+      <div class="support">
+          <img src="logo.png" alt="Logo">
+          <h3 id="animateText">Thank you for supporting me!<br>Hope you keep using my page and support me till the end.</h3>
+      </div>
+  </div>
+
+<script src="jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="w3.js" type="text/javascript" charset="utf-8"></script>
+<script src="index.js"></script>
+</body>
+</html>
