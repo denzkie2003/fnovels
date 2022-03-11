@@ -38,7 +38,15 @@ body{max-width:100%;background-color: #bcbcbc}
 .shareContainer{width:100%;height:auto;margin-bottom:20px}
 #shareUl li{width:30%;border:1px solid grey;border-radius:5px;padding:5px}
 #shareUl li a:hover, #shareUl li a:active{cursor: none}
-
+.support-message{
+    width:100%;
+    background-color:#FF9246;
+    border-radius: 5px;
+    margin:5px 0;
+    padding: 7px 5px;
+    text-align: center
+}
+.support-message h2 a{color:white}
 /*Media*/
 @media screen and (max-width:600) and (min-width:500){
     body,p{font-size:13px}
