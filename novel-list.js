@@ -32,7 +32,7 @@ $(document).ready(function(){
             title:"My Instant Death Ability is So Overpowered, No One in This Other World Stands a Chance Against Me!", link:"my-instant-death-ability-light-novel.html"
         },{
             title:"Even a ‘used goods’ wants to experience love",link:"chuuko-demo-koi-ga-shitai.html"
-        }
+        },{title:"(86)Eighty Six",link:"eighty-six-light-novel.html"}
     ]
     
     let ul = document.getElementById("novelList");
