@@ -14,5 +14,5 @@ $(document).ready(function(){
   }
   
   $("#back_arrow a").attr("href","index.html")
-  $(".support-me").attr("href","");
+  $(".support-me").attr("href","support-me.html");
 });
