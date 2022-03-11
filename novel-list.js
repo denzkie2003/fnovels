@@ -28,6 +28,8 @@ $(document).ready(function(){
             title:"Private Tutor to the Duke’s Daughter",link:"private-tutor-to-the-dukes-daughter-light-novel.html"
         },{
             title:"I’m Fine With Being the Second Girlfriend",link:"im-fine-with-being-the-second-girlfriend.html"
+        },{
+            title:"My Instant Death Ability is So Overpowered, No One in This Other World Stands a Chance Against Me!", link:"my-instant-death-ability-light-novel.html"
         }
     ]
     
