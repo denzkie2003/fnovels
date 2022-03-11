@@ -26,6 +26,8 @@ $(document).ready(function(){
         },{title:"Spy Classroom",link:"spy-classroom-light-novel.html"},
         {
             title:"Private Tutor to the Duke’s Daughter",link:"private-tutor-to-the-dukes-daughter-light-novel.html"
+        },{
+            title:"I’m Fine With Being the Second Girlfriend",link:"im-fine-with-being-the-second-girlfriend.html"
         }
     ]
     
