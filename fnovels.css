@@ -30,7 +30,7 @@ body{max-width:100%;background-color: #bcbcbc}
   margin:5px 5px;
 }
 /*Navigation*/
-.navigation{position: sticky;top:0}
+.navigation{position: sticky;top:0;z-index: 100}
 .navigation ul li a{color:inherit}
 .title{font-weight: 800}
 .title a{color:inherit}
