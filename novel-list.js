@@ -1,6 +1,8 @@
 $(document).ready(function(){
     const novel = [
         {
+          title:"Date A Live", link:"date-a-live-light-novel-epub.html"
+        },{
           title:"My Plain-looking Fiance Is Secretly Sweet With Me", link:"my-plain-looking-fiance-is-secretly.html"
         },{
           title:"World Strongest Rearguard – Labyrinth Country and Dungeon Seekers",link:"world-strongest-rearguard-labyrinth-country-and-dungeon-seekers.html"
