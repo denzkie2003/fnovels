@@ -1,6 +1,8 @@
 $(document).ready(function(){
     const novel = [
         {
+          title:"World Strongest Rearguard – Labyrinth Country and Dungeon Seekers",link:"world-strongest-rearguard-labyrinth-country-and-dungeon-seekers.html"
+        },{
           title:"The Romcom Where The Childhood Friend Won't Lose!",link:"osananajimi-ga-zettai-ni-makenai-love-comedy-light-novel.html"
         },{
           title:"Goodbye Otherworld, See You Tomorrow",link:"goodbye-otherworld-see-you-tomorrow-light-novel.html"
