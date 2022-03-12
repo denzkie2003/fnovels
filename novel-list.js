@@ -1,6 +1,10 @@
 $(document).ready(function(){
     const novel = [
-        {title:"The Neighboring Aarya-san who Sometimes Acts Affectionate and Murmuring in Russian",link:"the-neighboring-aarya-san-who-sometimes.html"},
+        {
+          title:"The Romcom Where The Childhood Friend Won't Lose!",link:"osananajimi-ga-zettai-ni-makenai-love-comedy-light-novel.html"
+        },{
+          title:"Goodbye Otherworld, See You Tomorrow",link:"goodbye-otherworld-see-you-tomorrow-light-novel.html"
+        },{title:"The Neighboring Aarya-san who Sometimes Acts Affectionate and Murmuring in Russian",link:"the-neighboring-aarya-san-who-sometimes.html"},
         {
           title:"Full Clearing Another World under a Goddess with Zero Believers",link:"full-clearing-another-world-with-a-goddess-with-zero-believer.html"
         },{
