@@ -42,7 +42,7 @@
 	      <li class="w3-bar-item"><a href="#">Home</a></li>
 	      <li class="w3-bar-item"><a href="about-us.html">About Us</a></li>
 	      <li class="w3-bar-item"><a href="novel-list.html">LN List</a></li>
-	      <li class="w3-bar-item support-me"><a href="http://favoacew.com/kv3">Support Me</a></li>
+	      <li class="w3-bar-item"><a class="support-me">Support Me</a></li>
 	    </ul>
 	  </div>
 	  <!-- Search Display -->
@@ -86,6 +86,15 @@
     }
   }
 }
+</script>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('fnovels', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#f45d22',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
 </script>
 </body>
 </html>

@@ -14,5 +14,5 @@ $(document).ready(function(){
   }
   
   $("#back_arrow a").attr("href","index.html")
-  $(".support-me").attr("href","http://favoacew.com/kv3");
+  $(".support-me").attr("href","https://ko-fi.com/fnovels");
 });
