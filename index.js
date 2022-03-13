@@ -13,8 +13,9 @@ $(document).ready(function(){
       window.alert("Sorry but the page is currently not available on desktop mode or higher than 800pixels screen wide.\nIf you want to use this site, you can drog your browsers border to change it size to mobile view.");
   }
   
-  $("#back_arrow").click(function(){
+  $("#back_arrow").on("click", function(){
     history.back();
   })
+  $("#back_arrow").attr("href","javascript:history.back()");
   $(".support-me").attr("href","https://ko-fi.com/fnovels");
 });
