@@ -1,6 +1,10 @@
 $(document).ready(function(){
     const novel = [
         {
+          title:"I'm Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",link:"im-gonna-live-with-you-not-because-my-parents-left-me-their-debt-but-because-i-like-you.html"
+        },{
+          title:"Date A Live - Date A Bullet", link:"date-a-bullet-light-novel.html"
+        },{
           title:"Date A Live", link:"date-a-live-light-novel-epub.html"
         },{
           title:"My Plain-looking Fiance Is Secretly Sweet With Me", link:"my-plain-looking-fiance-is-secretly.html"
