@@ -1,6 +1,10 @@
 $(document).ready(function(){
     const novel = [
-        {
+       {
+         title:"The Great Cleric",link:"the-great-cleric-light-novel.html"
+       }/* {
+          title:"In Another World With My Smartphone", link:"in-another-world-with-smartphone-all-volumes-pdf.html"
+        }*/,{
           title:"I'm Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",link:"im-gonna-live-with-you-not-because-my-parents-left-me-their-debt-but-because-i-like-you.html"
         },{
           title:"Date A Live - Date A Bullet", link:"date-a-bullet-light-novel.html"
