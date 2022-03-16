@@ -1,6 +1,8 @@
 $(document).ready(function(){
     const novel = [
        {
+         title:"You Are the Daughter of My First Love",link:"you-are-the-daughter-of-my-first-love-light-novel.html"
+        },{
          title:"The Great Cleric",link:"the-great-cleric-light-novel.html"
        },{
           title:"In Another World With My Smartphone", link:"in-another-world-with-smartphone-all-volumes.html"
