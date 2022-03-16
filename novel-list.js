@@ -1,6 +1,8 @@
 $(document).ready(function(){
     const novel = [
        {
+         title:"Is A Girlfriend Who Can\'t Say \" Love You\" No Good? Houkage-san Reads Light Novels Too Much",link:""
+        },{
          title:"You Are the Daughter of My First Love",link:"you-are-the-daughter-of-my-first-love-light-novel.html"
         },{
          title:"The Great Cleric",link:"the-great-cleric-light-novel.html"
