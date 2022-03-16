@@ -4,7 +4,7 @@ $(document).ready(function(){
            title:"From Toxic Classmate To Girlfriend Goals",link:"from-toxic-classmate-to-girlfriend-goals.html"
        },
        {
-         title:"Is A Girlfriend Who Can\'t Say \" Love You\" No Good? Houkage-san Reads Light Novels Too Much",link:""
+         title:"Is A Girlfriend Who Can\'t Say \" I Love You\" No Good? Houkage-san Reads Light Novels Too Much",link:"is-a-girlfriend-who-cant-say-i-love-you-no-good-houkage-san-reads-light-novels-too-much.html"
         },{
          title:"You Are the Daughter of My First Love",link:"you-are-the-daughter-of-my-first-love-light-novel.html"
         },{
