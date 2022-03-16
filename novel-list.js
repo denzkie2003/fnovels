@@ -1,6 +1,9 @@
 $(document).ready(function(){
     const novel = [
        {
+           title:"From Toxic Classmate To Girlfriend Goals",link:"from-toxic-classmate-to-girlfriend-goals.html"
+       },
+       {
          title:"Is A Girlfriend Who Can\'t Say \" Love You\" No Good? Houkage-san Reads Light Novels Too Much",link:""
         },{
          title:"You Are the Daughter of My First Love",link:"you-are-the-daughter-of-my-first-love-light-novel.html"
