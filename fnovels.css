@@ -1,8 +1,12 @@
 /*FNovels Css Frameworks*/
 @import url('http://fonts.cdnfonts.com/css/poppins?styles=20394');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/speed-fez?styles=122922');
+@import url('http://fonts.cdnfonts.com/css/longa-iberica?styles=115546');
 :root{
     --message-bg: rgba(255, 212, 48, 0.32);
+    --speed-fez: 'SPEED FEZ italic', sans-serif;
+    --longa-iberica: 'Longa Iberica', sans-serif;
 }
 *{
   padding:0;margin:0;/*default*/
@@ -35,6 +39,9 @@ body{max-width:100%;background-color: #bcbcbc}
 .title{font-weight: 800}
 .title a{color:inherit}
 /*Post Display*/
+.description{
+  font-family: var(--longa-iberica);
+}
 .shareContainer{width:100%;height:auto;margin-bottom:20px}
 #shareUl li{width:30%;border:1px solid grey;border-radius:5px;padding:5px}
 #shareUl li a:hover, #shareUl li a:active{cursor: none}
@@ -47,6 +54,22 @@ body{max-width:100%;background-color: #bcbcbc}
     text-align: center
 }
 .support-message h2 a{color:white}
+@keyframes animation-text{
+    0%{color:#E400C6}
+    20%{color:#17E400}
+    40%{color:#E47400}
+    60%{color:#E40000}
+    80%{color:#E4AB00}
+    100%{color:#ffffff}
+}
+#animation-text a{
+    font-family: var(--speed-fez);
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    animation: animation-text 3s infinite ease-in;
+    animation-play-state: running;
+}
 /*Media*/
 @media screen and (max-width:600) and (min-width:500){
     body,p{font-size:13px}
