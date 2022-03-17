@@ -1,6 +1,12 @@
 $(document).ready(function(){
     const novel = [
        {
+           title:"How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?",link:"how-could-you-like-another-girl-when-you-already-have-a-cute-fiance-like-me.html"
+       },
+       {
+           title:"Kuma Kuma Kuma Bears",link:"kuma-kuma-kuma-bears-light-novel.html"
+       },
+       {
            title:"Days With My Step-sister",link:"days-with-my-step-sister-light-novel.html"
        },
        {
