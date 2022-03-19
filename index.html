@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="DenZ"/>
-  <meta name="description" content="Download your favorate Light Novels for free"/>
+  <meta name="description" content="Download your favorite Light Novels for free"/>
   <meta property="og:site_name" content="Fnovels - Free Light Novels"/>
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="logo.png" />
@@ -27,6 +27,11 @@
   .search-container{position: relative}
   .sResult{width:91%;height:250px;background-color:white;box-shadow:2px 3px 10px 2px black;position:absolute;border-radius:5px;overflow-y:scroll;display:none;list-style-type:none}
   .sResult li{border:none}
+  .notice{max-width:100%;margin:5px;padding:0 5px;box-shadow: inset 1px 1px 30px #FFAA52;border-radius:5px}
+  .notice h5{font-weight:800}
+  #notice{list-style-type:none;margin:0;padding:0 0 0 10px}
+  #notice li a{font-size:15px;color:black;text-decoration:underline}
+  #notice li a:hover{color:#80FF76}
 </style>
 </head>
 <body>
@@ -39,7 +44,7 @@
 	  <!-- Navigation -->
 	  <div class="navigation w3-bar w3-black">
 	    <ul class="w3-ul">
-	      <li class="w3-bar-item"><a href="#">Home</a></li>
+	      <li class="w3-bar-item"><a href="https://www.fnovels.ml">Home</a></li>
 	      <li class="w3-bar-item"><a href="about-us.html">About Us</a></li>
 	      <li class="w3-bar-item"><a href="novel-list.html">LN List</a></li>
 	      <li class="w3-bar-item"><a class="support-me">Support Me</a></li>
@@ -47,7 +52,13 @@
 	  </div>
 	  <div class="w3-container w3-round w3-blue" style="margin:5px;">
               <h5 id="animation-text"><a class="support-me">Please consider donating any amount for maintaining the site</a>.</h5>
-          </div>
+      </div>
+      <div class="notice">
+          <h5>New Released</h5>
+          <ul id="notice">
+              <li><a href="https://www.fnovels.ml/you-are-the-daughter-of-my-first-love-light-novel.html">Your are the daughter of my first love Volume 02</a></li>
+          </ul>
+      </div>
 	  <!-- Search Display -->
 	  <div style="margin:7px 5px;" class="search-container w3-container w3-white w3-round">
 	    <form method="get" class="w3-form w3-padding-small formSearch">
